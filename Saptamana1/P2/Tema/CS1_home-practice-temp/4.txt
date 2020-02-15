@@ -1,0 +1,1 @@
+Creatorul Linux, pe numele lui Linus Torvalds, este cel care s-a gandit la o metoda de versionare a codului, in momentul in care a considerat ca este nevoie ca mai multi programatori sa lucreze la versiunea sa de Linux.
