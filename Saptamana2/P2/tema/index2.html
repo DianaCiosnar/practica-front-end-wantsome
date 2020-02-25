@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>Cerinta 3</title>
+     </head>
+     <body>
+         <form>
+             <label>Search for:</label>
+             <input type="text" name="search" value="Chocolate cheescake recipes">
+             <button type="submit"> <i class="search"></i>Search</button>
+             <br>
+        <div>
+             <label>Match:</label>
+             <input type="radio" name="match" value="Any word"> Any word
+             <input type="radio" name="match" value="All words" checked> All words
+             <input type="radio" name="match" value="Exact phrase"> Exact phrase
+             <br>
+             <input type="checkbox" id="match" name="match" value="Sound-alike matching" checked>
+             <label> Sound-alike matching</label><br>
+        </div>
+        <div>
+             <label>Dated:</label>
+             <input type="radio" id="Date" name="Date" value="Date">
+              <select id="option">
+             <option value="option">within the last year</option>
+              </select> 
+              <br>
+              <div>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" id="From" name="From" value="From" checked>
+              <label>From:</label>
+              <select id="from month">
+                <option value="from month">September</option>
+              </select> 
+              <select id="from day">
+                <option value="from day">8</option>
+              </select>
+              <input type="text" name="year">
+              <br>
+              <label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp TO:</label>
+              <select id="to month">
+                <option value="to month">October</option>
+              </select> 
+              <select id="to day">
+                <option value="to day">18</option>
+              </select> 
+              <input type="text" name="year">
+            </div>
+        </div>
+            <label>Within</label>
+            <select id="option">
+            <option value="Description">Description</option>
+            </select>
+            <br>
+        <div>
+            <label>Show:</label>
+            <select id="show">
+            <option value="show number">10</option>
+            </select>
+            <label>&nbsp results &nbsp</label>
+            <select id="results">
+            <option value="results">with</option>
+            </select>
+            <label>summaries</label>
+        </div>
+        <label>Sort by:</label>
+        <select id="sort">
+            <option value="sort by">relevance</option>
+        </select>
+        </form>
+     </body>
+</html>

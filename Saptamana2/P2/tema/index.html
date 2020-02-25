@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Cerinta 1 </title>
+ </head>
+ <body>
+     <form action="/action_page.php">
+      <h1>FORM</h1>
+        Nume: <input type="text" id="Nume" name="Nume" required>
+        <br>
+        Prenume:<input type="text" id="Prenume" name="Prenume"required>
+        <br>
+        Select
+        <br>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <br>
+        Varsta:<input type="number" id="Varsta" name="Varsta" min="18" max="85">
+        <br>
+        Tara:<input type="text" id="Tara" name="Tara">
+        <br>
+        <label for="Tara">Choose a country:</label>
+        <select id="Tara" name="Tara">
+            <option value="Romania" selected>Romania</option>
+            <option value="Italia">Italia</option>
+            <option value="Spania">Spania</option>
+            <option value="Bulgaria">Bulgaria</option>
+          </select>
+          <br>
+        Oras:<input type="text" id="Oras" name="Oras">
+        <br>
+        Adresa:<input type="text" id="Adresa" name="Adresa">
+        <br>
+        Cod Postal:<input type="text" id=" Cod Postal" name=" Cod Postal">
+        <br>
+        Email:<input type="email" name="Email"required>
+        <br>
+        <label> Mesaj</label><br>
+        <textarea name="message" rows="10" cols="30">
+            Despre voi
+        </textarea>
+        <br>
+        <label>Selectati un fisier:</label>
+           <input type="file"name="myFile">
+           <br>
+           <div class="buton">
+            <button type="submit" class="Submit">Submit</button>
+            <button type="submit" class="submit">Reset form</button>
+          </div>
+          </form>
+ </body>
+</html>
+

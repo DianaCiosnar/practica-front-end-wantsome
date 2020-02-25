@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Cerinta 2 </title>
+ </head>
+ <body>
+     <form>
+      <h1>Travel reservation form</h1>
+      <br>
+      <h5>*denotes mandotory</h5>
+      <div>
+      <br>
+      <label>Full Name:</label>
+      <br>
+      <input type="text" id="Full Name" name="Full Names" required>
+      <br>
+      <label>Email address</label>
+      <br>
+      <input type="email" id="Email address" name="Email address" required>
+      <br>
+      <label>Select Tour Package:</label>
+      <br>
+      <select id="Package" name="Package">
+      <option value="Goa" selected >Goa</option>
+      </select>
+      <br>
+      <label for="Arrival date">Arrival date:</label>
+      <br>
+      <input type="date" id="Arrival date" name="Arrival date" required>
+      <br>
+      <label for="Number of persons">Number of persons:</label>
+      <br>
+      <input type="number" id="Number of persons" name="Number of persons" required>
+      <br>
+        <label>What would you want to avail?</label>
+        <br>
+        <input type="checkbox" id="option1" name="option1" value="Boarding ">
+        <label for="option1"> Boarding</label><br>
+        <input type="checkbox" id="option2" name="option2" value="Fooding" >
+        <label for="option2"> Fooding</label><br>
+        <input type="checkbox" id="option3" name="option3" value="Sight seeing">
+        <label for="option3"> Sight seeing</label><br>
+        <label>Discount Coupon code:</label>
+        <br>
+        <input type="text" id="Discount" name="Discount" >
+        <br>
+        <label >Terms and conditions</label>
+        <br>
+        <input type="radio" id="I agree" name="terms" value="I agree" checked>
+        <label for="I agree">I agree</label><br>
+        <input type="radio" id="I disagree" name="terms" value="I disagree">
+        <label for="female">I disagree</label><br>
+        <button type="submit" class="Complete reservation">Complete reservation</button>
+      </div>   
+     </form>
+ </body>
+</html>
