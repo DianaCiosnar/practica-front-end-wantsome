@@ -1,0 +1,37 @@
+
+textarea:hover {
+    font-size: 20px;
+    color: red;
+    background-color: yellow;
+} 
+
+.Submit:focus {
+    color: blue;
+    font-size: 15px;
+    font: bold;
+   
+}
+
+#Nume {
+ background-color: crimson;
+}
+
+#Prenume {
+    background-color: cyan;
+   }
+
+input[type="radio"]:checked + label {
+    color: red;
+}
+
+input[type="file"] {
+    background-color: salmon;
+    color: white;
+}
+
+.resetForm {
+    color: blue;
+    font-size: 15px;
+    font: bold;
+   
+}

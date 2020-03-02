@@ -1,0 +1,53 @@
+ul li:nth-child(even) {
+    color: green;
+}
+
+ul li:nth-of-type(3) {
+    background-color: cornflowerblue;
+}
+
+ul li:nth-of-type(1) {
+    border: solid 1px green;
+}
+
+ul li:last-of-type {
+    border: dotted 5px blue;
+}
+
+ul li:nth-of-type(3) a, ul li:nth-of-type(5) a {
+    color: red;
+}
+
+ul li:nth-of-type(5) a:hover {
+    color: grey;
+}
+
+ul li:nth-of-type(2), ul li:nth-of-type(5) {
+    list-style-type: none;
+}
+
+div input[type="text"]:focus {
+    background-color: grey;
+}
+
+div input[placeholder="first name"]:hover {
+    color: green;
+}
+
+div input[placeholder="last name"]:hover {
+    color: blue;
+}
+
+div input[type="password"]:hover {
+    border: none;
+}
+
+div input[type="email"]:focus {
+    background-color: yellow;
+    color: pink;
+}
+
+div input[type="submit"]:hover {
+    color: red;
+}
+
