@@ -1,0 +1,10 @@
+div {
+
+
+  border: 10px dotted red;
+  padding: 100px;
+  background-clip: padding-box;
+  background-size: 300px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
