@@ -1,0 +1,28 @@
+section nav {
+  font-size: 15px;
+  background-color: red;
+  font-style: italic;
+  width: 100%;
+  height: 200px;
+}
+
+section main {
+  font-size: 10px;
+  background-color: yellow;
+  font-style: italic;
+  width: 100%;
+  height: 200px;
+}
+
+section div {
+  font-size: 10px;
+  background-color: green;
+  font-style: italic;
+  width: 100%;
+  height: 200px;
+}
+
+body {
+  background: #3399ff;
+}
+/*# sourceMappingURL=style.css.map */

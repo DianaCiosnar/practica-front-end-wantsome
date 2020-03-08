@@ -1,0 +1,11 @@
+@import 'mixin';
+@import 'operators';
+@import 'variables';
+@import 'nesting';
+
+
+body {
+    background: $blue;
+}
+
+@include header-footer; 
