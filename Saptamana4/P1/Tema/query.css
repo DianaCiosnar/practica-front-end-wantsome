@@ -1,0 +1,63 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    section {
+
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    clear: left;
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+ 
+    section {
+
+        max-width: 850px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        clear: left;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    section {
+
+        max-width: 850px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        clear: left;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    section {
+        max-width: 850px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        clear: left;  
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    section {
+        max-width: 850px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        clear: left;  
+    }
+}

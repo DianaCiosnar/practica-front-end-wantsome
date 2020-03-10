@@ -1,0 +1,40 @@
+body {
+    
+    background: linear-gradient(to right, rgb(219, 230, 246), rgb(197, 121, 109));
+}
+
+ section {
+     max-width: 850px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap:wrap;
+     justify-content: space-evenly;
+     clear: left;  
+ }
+.div1 img {
+
+    width: 400px;
+    height: 400px;
+}
+    
+.div2 img {
+
+    width: 400px;
+    height: 400px;
+}
+
+.div3 img {
+
+    width: 400px;
+    height: 400px; 
+    
+}
+
+
+.div4 img {
+
+    width: 400px;
+    height: 400px;  
+}
+    
+    

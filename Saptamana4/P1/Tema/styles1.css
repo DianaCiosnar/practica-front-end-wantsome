@@ -1,0 +1,67 @@
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:400px;
+    
+}
+
+.divVertical {
+    background-color: turquoise;
+    width: 350px;
+    height:200px;
+    position:relative;
+    top: 0;
+    left:10;
+    flex: 0 0 50%;    
+} 
+
+.divTiles {
+    background-color: yellow;
+    width: 350px;
+    height:200px;
+    position:relative;
+    top: 200;
+    left:10;
+    flex: 0 0 50%;
+    
+}
+
+.divMiddle {
+    background-color: blue;
+    height: 400px;
+    width: 350px;
+    position: relative;
+    left: -350px;
+    top: 0px;
+    flex: 0 0 100%;
+    
+}
+
+.divMiddle img {
+    width: 150px;
+    height: 150px;
+    margin: 25%;
+}
+
+nav {
+    background-color: green;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left:700px;
+    width: 350px;
+    height: 800px;
+    margin-top: 8px;
+}
+
+span {
+    background-color:palevioletred;
+    position: absolute;
+    top: 450px;
+    left: 10;
+    bottom: 0;
+    height: 350px;
+    width: 670px;
+}   

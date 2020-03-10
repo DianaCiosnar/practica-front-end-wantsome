@@ -1,0 +1,54 @@
+body {
+   background-color: #3399ff;
+  
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color:rgb(1, 250, 4);
+    display: flexbox;
+    
+}
+main {
+    background-color:hsl(120, 96%, 32%);
+    height: 250px;
+    position:relative;
+    top: 70px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;   
+      
+}
+
+.divLeft img {
+    height: 250px;
+    width: 250px;
+    display: inline-block;   
+}
+
+.divCenter img {
+    height: 250px;
+    width: 250px;
+    display: inline-flex;
+}
+
+.divRight img { 
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color:rgb(1, 250, 4);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+
+
+
