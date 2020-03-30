@@ -125,7 +125,6 @@ function param(points) {
         console.log("FF");
     }
 }
-
 param(40);
    
    //Cerinta:
@@ -145,7 +144,7 @@ console.log("weekend")
 console.log(new Date('Nov 15, 2014'))
    
    
-   1. 1. Scrieti o functie sub forma named function care accepta ca argument un CNP si verifica sexul unei persoane. In urma apelului acestei functii, se va returna un text de forma "Persoana verificata este de sexul M/F".
+   //1. 1. Scrieti o functie sub forma named function care accepta ca argument un CNP si verifica sexul unei persoane. In urma apelului acestei functii, se va returna un text de forma "Persoana verificata este de sexul M/F".
    
 function gender(cnp) {
     if (cnp[0] == 1) {
@@ -170,19 +169,19 @@ gender('1920404336692');
 var calificativ = function (number) {
     switch (number) {
         case (number >= 1 && number < 3):
-            console.log("Calificatul corespunzator punctajului" + " " + number + " " + "este E");
+            console.log("Calificativul corespunzator punctajului" + " " + number + " " + "este E");
             break;
         case (number >= 3 && number <= 6):
-            console.log("Calificatul corespunzator punctajului" + " " + number + " " + "este D");
+            console.log("Calificativul corespunzator punctajului" + " " + number + " " + "este D");
             break;
         case (number >= 7 && number <= 8):
-            console.log("Calificatul corespunzator punctajului" + " " + number + " " + "este B");
+            console.log("Calificativul corespunzator punctajului" + " " + number + " " + "este B");
             break;
         case (number = 9):
-            console.log("Calificatul corespunzator punctajului" + " " + number + " " + "este A");
+            console.log("Calificativul corespunzator punctajului" + " " + number + " " + "este A");
             break;
         case (number = 10):
-            console.log("Calificatul corespunzator punctajului" + " " + number + " " + "este A+");
+            console.log("Calificativul corespunzator punctajului" + " " + number + " " + "este A+");
             break;
     }
 }
