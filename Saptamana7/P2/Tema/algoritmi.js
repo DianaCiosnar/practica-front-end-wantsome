@@ -73,25 +73,26 @@ console.log(string("ana", "diana"));
 
 //12.Implementati o functie care accepta ca argumente doi parametri: un array si o valoare. Functia afiseaza fiecare element al array-ului pana cand intalneste elementul cu valoarea specificata
 
-function value(array, str) {
+function value(array, number) {
     var newArray = [];
     for (i = 0; i < array.length; i++) {
-        if (str != array[i]) {
-            newArray += array[i];
+        if ( array[i]!=number) {
+            return newArray += array[i];
         }
     } 
 }
-console.log(value([1, 2, 3], 3));
+console.log(value([1, 2, 3], 2));
 
 //13. Scrieti o functie care elimina toate valorile false dintr-un array: false, null, 0, "", undefined, NaN
+var valueArray=[0, null, undefined, NaN, false, "",1];
 function myArray(array) {
     var result = [];
     for (i = 0; i <= array.length; i++) {
-        result.push(Boolean(array[i]))
+        result.push(!!(array[i]))
     }
-    console.log(array);
+    console.log(result);
 }
-console.log(myArray[0, null, undefined, NaN, false, ""]);
+myArray(valueArray);
 
 //14. Scrieti o functie care repeta un string de n ori specificate
 
