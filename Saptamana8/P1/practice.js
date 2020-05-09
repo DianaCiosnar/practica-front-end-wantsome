@@ -66,7 +66,7 @@ let findLongestWord = (string) => {
         if (strSplit[i].length > strSplit[longestWord].length) {
             longestWord = i;
         }
-    }
+    };
     return strSplit[longestWord];
 }
 console.log(findLongestWord("Wantsome is Awsomeeee today"));
