@@ -1,0 +1,2 @@
+//Cerinte:
+// 1. Creati o functie care primeste un numar ca si argument si returneaza un Promise care testeaza daca valoarea este mai mica sau mai mare decat 10 - se va face reject / resolve in functie de valoarea de adevar a conditiei de comparatie. Apelati functia si folositi consumatorii then si catch pentru a trata ambele cazuri.
