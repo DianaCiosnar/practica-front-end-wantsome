@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <form  action="/action_page.php" id="form1" name = "form" onsubmit = "return(validate());">
+        <label for="USERNAME">USERNAME:</label><br>
+        <input type="text" id="usernameErr" name="username"><br>
+        <label for="Email Adress">Email Address:</label><br>
+        <input type="email" id="emailAddressErr" name="emailAddress"><br>
+        <label for="FIRST NAME">FIRST NAME:</label><br>
+        <input type="text" id="firstNameErr" name="firstName"><br>
+        <label for="LAST NAME">LAST NAME:</label><br>
+        <input type="text" id="lastNameErr" name="lastName"><br>
+        <label for="NICKNAME">NICKNAME:</label><br>
+        <input type="text" id="nicknameErr" name="nickname"><br>
+        <label for="PHONE">PHONE:</label><br>
+        <input type="tel" id="phoneErr" name="phone"><br><br>
+        <input type="radio" id="radio1" name="radio" value="GIMME A SITE!">
+        <label for="male">GIMME A SITE!</label><br>
+        <input type="radio" id="radio2" name="radio" value="JUST A USERNAME,PLEASE.">
+        <label for="female">JUST A USERNAME,PLEASE.</label><br><br>
+        <input type="submit" id="submit" value="Next">
+    </form>
+</body>
+<script src="practice.js"></script>
+</html>
