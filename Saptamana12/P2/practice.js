@@ -96,10 +96,15 @@ class Transaction {
 }
 
 class Table {
-    constructor(transactions) {
-        this.transactions=[];
+    transaction=[]
+    addTransaction(...param){
+        this.transaction.push(...param)
     }
-    addTransaction(){
-        return
-    }
-}
+};
+
+const bankAccount=new Account('Diana', 'Iasi');
+const transaction1= new Transaction ('ana','BT',20,'DIVERSE');
+const transaction2=new Transaction('anca','ing',50,'transfer');
+const table=new Table();
+table.addTransaction(transaction1,transaction2);
+console.log(table);
