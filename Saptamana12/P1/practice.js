@@ -10,33 +10,18 @@
     };
   };
 
-  var Car = function(driver) {
-    this.driver = driver;
-    this.speed = 0;
-    this.drive = function(mph) {
-      this.speed = mph;
-      return this.driver + ' driving at ' + mph + ' miles per hour';
-    };
+  var Car= new Vehicle('driver');
+  var Truck= new Vehicle('driver');
+  Truck.cargo=[];
+  Truck.loadCargo=function(cargo){
+    this.cargo.push(cargo);
+    return this;
+  }
+  Truck.unloadCargo=function(){
+    return this.cargo.pop();
   };
-  var Truck = function(driver) {
-    this.driver = driver;
-    this.speed = 0;
-    this.cargo = [];
-    this.drive = function(mph) {
-      this.speed = mph;
-      return this.driver + ' driving at ' + mph + ' miles per hour';
-    };
-
-    this.loadCargo = function(cargo) {
-      this.cargo.push(cargo);
-      return this;
-    };
-
-    this.unloadCargo = function() {
-      return this.cargo.pop();
-    };
-  };
-
+  console.log(Car);
+  console.log(Cargo);
 //Creati un obiect numit Trainer care sa fie derivat din obiectul Person si implementati o metoda teach() ce primeste un string numit subject si printeaza
 // [nume trainer] is now teaching [subject]
 
@@ -47,11 +32,14 @@ Person.prototype.initialize = function(name, age)
     this.age = age;
 }
 
- var trainer= new Person();
- trainer.teach=function(subject){
+ var Trainer= new Person();
+ Trainer.name='Diana'
+ Trainer.age=27;
+ console.log(Trainer);
+ Trainer.teach=function(subject){
   print(this.name+""+"is now teaching"+""+this.subject);
  }
- console.log(trainer);
+ console.log(Trainer);
 
 // triunghi.constructor;                 // Triangle(a, b, c)   
 // forma.isPrototypeOf(triunghi);        // true
